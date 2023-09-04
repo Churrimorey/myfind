@@ -26,6 +26,13 @@ pub fn walk_tree(
                 }
             }
         }
+    } else if let Some(filename) = dir.file_name().and_then(|s| s.to_str()) {
+        if regex.is_match(filename) {
+            matches.push(dir.to_string_lossy().to_string());
+        }
+        if flag != 0 {
+            println!("{}", dir.to_string_lossy().to_string().purple());
+        }
     }
     Ok(())
 }
