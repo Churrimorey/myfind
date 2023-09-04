@@ -95,8 +95,12 @@ fn main() {
                 }
             }
         }
+        let dir_matches: Vec<&String> = dir_matches
+            .iter()
+            .filter(|&s| !final_matches.contains(s))
+            .collect();
         for filename in dir_matches {
-            final_matches.push(filename);
+            final_matches.push(filename.to_string());
         }
     }
 
