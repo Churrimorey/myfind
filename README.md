@@ -51,4 +51,4 @@ for filename in dir_matches {
 
 ### 综合结果
 
-![image-20230904192707039](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20230904192707039.png)
+![image-20230904192707039](https://github.com/Churrimorey/myfind/blob/main/Screenshot%202023-09-04%20192652%20-%20Copy.png)
