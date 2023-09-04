@@ -12,7 +12,7 @@
 
 增加了依赖库`colored`，实现命令行输出的彩色
 
-![image-20230904191650357](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20230904191650357.png)
+![image-20230904191650357](https://github.com/Churrimorey/myfind/blob/main/Screenshot%202023-09-04%20191648%20-%20Copy.png)
 
 增加新的功能，`-v`/`--verbose` 参数输出所有遍历到的文件
 
